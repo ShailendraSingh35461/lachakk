@@ -12,6 +12,7 @@ ini_set('display_errors', '1');
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
+    <!-- hello sir -->
     <!-- Favicon Amaaan Shailendra -->
     <link href="img/lachakk-logo.jpg" rel="icon">
 

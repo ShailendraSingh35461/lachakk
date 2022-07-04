@@ -12,8 +12,11 @@ ini_set('display_errors', '1');
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
+    <!-- hello sir -->
     <!-- Favicon Amaaan Shailendra -->
     <link href="img/lachakk-logo.jpg" rel="icon">
+
+    <!-- function1 -->
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -105,6 +108,7 @@ ini_set('display_errors', '1');
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
+                    <!-- function 2 -->
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav ml-auto py-0">
                             
@@ -282,6 +286,7 @@ ini_set('display_errors', '1');
                 </div>
             </div>
         </div>
+        <!-- function3 -->
     </div>
     <!-- Navbar End -->
 

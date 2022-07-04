@@ -108,6 +108,7 @@ ini_set('display_errors', '1');
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
+                    <!-- function 2 -->
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav ml-auto py-0">
                             

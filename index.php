@@ -367,6 +367,7 @@ ini_set('display_errors', '1');
     <!-- Products End -->
 
 
+    <!-- function4 -->
     <!-- Company Partner Start -->
     <!-- <div class="container-fluid py-5">
         <div class="row px-xl-5">

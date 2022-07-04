@@ -16,8 +16,6 @@ ini_set('display_errors', '1');
     <!-- Favicon Amaaan Shailendra -->
     <link href="img/lachakk-logo.jpg" rel="icon">
 
-    <!-- function1 -->
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -108,7 +106,6 @@ ini_set('display_errors', '1');
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <!-- function 2 -->
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav ml-auto py-0">
                             
@@ -286,7 +283,6 @@ ini_set('display_errors', '1');
                 </div>
             </div>
         </div>
-        <!-- function3 -->
     </div>
     <!-- Navbar End -->
 
@@ -367,7 +363,6 @@ ini_set('display_errors', '1');
     <!-- Products End -->
 
 
-    <!-- function4 -->
     <!-- Company Partner Start -->
     <!-- <div class="container-fluid py-5">
         <div class="row px-xl-5">

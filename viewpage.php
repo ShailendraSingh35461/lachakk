@@ -51,10 +51,6 @@
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a href="" class="text-decoration-none">
-                    <!-- <h1 class="m-0 display-5 font-weight-semi-bold">
-                        <span class="text-primary font-weight-bold border px-3 mr-1">
-                        </span>
-                    </h1> -->
                     <img src="./img/lachakk-logo.jpg" height="100" width="100" alt="">
                 </a>
             </div>
@@ -100,9 +96,10 @@
 
 
     <!-- Shop Detail Start -->
+    <!-- px-xl-5 -->
     <div class="container-fluid py-5">
-        <div class="row px-xl-5">
-            <div class="col-lg-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 justify-content-center pb-5">
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner border">
                         <div class="carousel-item active">
@@ -144,7 +141,7 @@
                 <h3 class="font-weight-semi-bold mb-4">₹ 5,800.00</h3>
 
                 <!-- All Size -->
-                <div class="d-flex mb-3">
+                <!-- <div class="d-flex mb-3">
                     <p class="text-dark font-weight-medium mb-0 mr-3">Sizes:</p>
                     <form>
                         <div class="custom-control custom-radio custom-control-inline">
@@ -164,7 +161,7 @@
                             <label class="custom-control-label" for="size-5">XL</label>
                         </div>
                     </form>
-                </div>
+                </div> -->
 
                 <!-- <div class="d-flex mb-4">
                     <p class="text-dark font-weight-medium mb-0 mr-3">Colors:</p>

@@ -357,10 +357,10 @@ ini_set('display_errors', '1');
         </div>
         <div class="row px-xl-5 pb-3">
             <?php
-            trendy($mrp = 125, $srp = 120, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php");
-            trendy($mrp = 125, $srp = 120, $img = "item3.PNG", $name = "Blue Shirt", $url = "./viewpage.php");
-            trendy($mrp = 125, $srp = 120, $img = "./potli/potli3.PNG", $name = "Blue Shirt", $url = "./viewpage.php");
-            trendy($mrp = 125, $srp = 4500, $img = "item2.PNG", $name = "Blue Shirt", $url = "#");
+            trendy($mrp = 125, $srp = 120, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=101);
+            trendy($mrp = 125, $srp = 120, $img = "item3.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=102);
+            trendy($mrp = 125, $srp = 120, $img = "./potli/potli3.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=103);
+            trendy($mrp = 125, $srp = 4500, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=104);
             ?>
         </div>
     </div>
@@ -482,7 +482,7 @@ function products($count, $img, $name, $url)
 }
 
 // Trendy Products function
-function trendy($mrp, $srp, $img, $name, $url)
+function trendy($mrp, $srp, $img, $name, $url,$id)
 {
     echo '<div class="col-lg-3 col-md-6 col-sm-12 pb-1">
     <div class="card product-item border-0 mb-4">
@@ -497,7 +497,7 @@ function trendy($mrp, $srp, $img, $name, $url)
             </div>
         </div>
         <div class="card-footer d-flex justify-content-between bg-light border">
-            <a href="' . $url . '" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View
+            <a href="' . $url . '?productid='.base64_encode($id).'" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View
                 Detail</a>
         </div>
     </div>

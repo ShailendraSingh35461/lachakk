@@ -109,7 +109,7 @@
                     if (!empty($_GET['form'])) echo $_GET['form'] == 'pass' ? "New Record Added Successfully" :  $_GET['form'];
                     ?>
                     <!-- <div id="success"></div> -->
-                    <form method="post" name="sentMessage" action="form.php" id="contactForm">
+                    <form method="post" name="sentMessage" action="https://www.lachakk.com/form.php" id="contactForm">
                         <div class="control-group">
                             <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required />
                             <p class="help-block text-danger"></p>

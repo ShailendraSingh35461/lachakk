@@ -307,7 +307,7 @@ ini_set('display_errors', '1');
             <!-- categories product  -->
             <?php
             products($count = 12, $img = "cat1.jpeg", $name = "Boho Bags", $url = "./bohodetail.php");
-            products($count = 10, $img = "cat2.jpeg", $name = "Potli Bags", $url = "./potlidetail.php");
+            products($count = 10, $img = "cat2.jpeg", $name = "Potli Bags", $url = "#");
             products($count = 12, $img = "cat3.jpeg", $name = "Clutch Bags", $url = "./clutchdetail.php");
             products($count = 12, $img = "cat2.jpeg", $name = "Tote Bags", $url = "./totedetail.php");
             products($count = 12, $img = "cat1.jpeg", $name = "Travel Bags", $url = "./traveldetail.php");
@@ -353,10 +353,10 @@ ini_set('display_errors', '1');
         </div>
         <div class="row px-xl-5 pb-3">
             <?php
-            trendy($mrp = 125, $srp = 120, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=101);
+            trendy($mrp = 125, $srp = 4500, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=101);
             trendy($mrp = 125, $srp = 120, $img = "item3.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=102);
             trendy($mrp = 125, $srp = 120, $img = "./potli/potli3.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=103);
-            trendy($mrp = 125, $srp = 4500, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=104);
+            // trendy($mrp = 125, $srp = 4500, $img = "item2.PNG", $name = "Blue Shirt", $url = "./viewpage.php", $id=104);
             ?>
         </div>
     </div>

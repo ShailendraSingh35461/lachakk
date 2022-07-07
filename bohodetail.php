@@ -106,9 +106,12 @@
         </div>
         <div class="row px-xl-5 pb-3">
             <?php
-            products($mrp = 125, $srp = 120, $img = "./potli/potli1.jpg", $name = "Blue Shirt", $url = "./viewpage.php");
-            products($mrp = 125, $srp = 120, $img = "./potli/potli2.jpg", $name = "Red Shirt", $url = "./viewpage.php");
-            products($mrp = 125, $srp = 120, $img = "./potli/potli3.PNG", $name = "White Shirt", $url = "./viewpage.php");
+            products($srp = 120, $img = "./boho1.jpg", $name = "Blue Shirt", $url = "./viewpage.php", $id=104);
+            products($srp = 120, $img = "./boho2.jpg", $name = "Red Shirt", $url = "./viewpage.php", $id=105);
+            products($srp = 120, $img = "./boho3.jpg", $name = "White Shirt", $url = "./viewpage.php", $id=106);
+            products($srp = 120, $img = "./boho4.jpg", $name = "White Shirt", $url = "./viewpage.php", $id=107);
+            products($srp = 120, $img = "./boho5.jpg", $name = "White Shirt", $url = "./viewpage.php", $id=108);
+            products($srp = 120, $img = "./boho6.jpg", $name = "White Shirt", $url = "./viewpage.php", $id=109);
             ?>
         </div>
     </div>
@@ -167,7 +170,7 @@
 
 <?php
 // Products function
-function products($mrp, $srp, $img, $name, $url)
+function products($srp, $img, $name, $url)
 {
     echo '<div class="col-lg-3 col-md-6 col-sm-12 pb-1">
     <div class="card product-item border-0 mb-4">
@@ -178,13 +181,12 @@ function products($mrp, $srp, $img, $name, $url)
             <h6 class="text-truncate mb-3">' . $name . '</h6>
             <div class="d-flex justify-content-center">
                 <h6>₹ ' . number_format($srp, 2) . '</h6>
-                <h6 class="text-muted ml-2"><del>₹ ' . number_format($mrp, 2) . '</del></h6>
+                
             </div>
         </div>
         <div class="card-footer d-flex justify-content-between bg-light border">
             <a href="' . $url . '" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View
                 Detail</a>
-            <a href="' . $url . '" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
         </div>
     </div>
 </div>';
